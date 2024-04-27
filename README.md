@@ -8,10 +8,15 @@ It is very playable, and yet it is only 2K in size!
 The files in this archive are:
 
 freax.txt        - this file.
+
 freax.s          - CA65 compatible 6502 assembler source code.
+
 freax-c64.prg    - Commodore 64 version.
+
 freax-v20.prg    - VIC20 version (unexpanded).
+
 freax-c16.prg    - Commodore 16 or Plus-4 version.
+
 
 To move left/right use keys I,P.   hit SHIFT to fire. To exit game hit key X.
 In the title screen you can select different modes by hitting M key. 
