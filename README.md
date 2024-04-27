@@ -32,6 +32,10 @@ Compiling the source.
 ---------------------
 The source code is included, and released under the GNU GPL3 licence (see end of this document).
 
+to compile with my ASM502 6502 assembler type:
+
+asm502 freax.c freax.prg
+
 FREAX is a "work in progress" - I started it as a little test program for my own 6502 assembler a long time ago.
 It is now quite playable, even though I intend to add more at some stage. It has a few interesting ideas, so its worth a look.
 It is very compact, currently about 2k. Most of the glitches and bugs on previous versions have been fixed.
@@ -52,6 +56,6 @@ Anyway thats it for now. Enjoy!
 
 
 =======================================================================
+
 The source code is released as free software under the GNU GPL3 licence,
 see GNU website:      www.gnu.org/licenses/gpl-3.0.html 
-=============================================================================
