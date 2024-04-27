@@ -41,20 +41,7 @@ Note: other target systems not yet done.
 I modified my asm to mostly match CA65. Ensure paths CC65_INC and CC65_LIB are set.
 To compile under CA65 set the USE_CA65 flag. I set target system to "none" to kill
 request for Segment settings - its a bit of a kludge, and to be honest I coded for my own 
-assembler, which is a CA65 subset.
-
-For CA65 I use something these batch files under WIN32/WINE console:
-------------------------------------------------------------------------
-rem CASM.BAT  
-echo  CASM (options) filename     - compile filename.s to filename.prg
-ca65 -D USE_CA65=1 %2 %3 %4 %5 %6 %1.s
-cl65 -t none -o %1.prg %1.o
-------------------------------------------------------------------------
-rem CCINIT.BAT    (call once to init)
-path %path%;\m\prog\cc65\bin
-set CC65_INC=\m\prog\cc65\include
-set CC65_LIB=\m\prog\cc65\lib
-------------------------------------------------------------------------
+assembler, ASM502, which is a CA65 subset.
 
 Anyway thats it for now. Enjoy!
 
