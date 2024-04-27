@@ -55,7 +55,7 @@ assembler, ASM502, which is a CA65 subset.
 Anyway thats it for now. Enjoy!
 
 
-=======================================================================
+===============================
 
 The source code is released as free software under the GNU GPL3 licence,
 see GNU website:      www.gnu.org/licenses/gpl-3.0.html 
