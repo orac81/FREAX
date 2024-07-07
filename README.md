@@ -17,7 +17,9 @@ freax-v20.prg    - VIC20 version (unexpanded).
 
 freax-c16.prg    - Commodore 16 or Plus-4 version.
 
-!(freax-c64-5.png)
+
+<img src="freax-c64-5.png" width="320">
+
 
 To move left/right use keys I,P.   hit SHIFT to fire. To exit game hit key X.
 In the title screen you can select different modes by hitting M key. 
